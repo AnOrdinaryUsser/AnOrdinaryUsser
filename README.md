@@ -1,4 +1,4 @@
-### Hello World <img src ="https://i.stack.imgur.com/e8nZC.gif" width=50>
+# Hello, It's me AnOrdinaryUsser <img src ="https://i.stack.imgur.com/e8nZC.gif" width=50>
 
 ## 👨‍💻 About Me
 - 📚 Studying Computer Engineering at [USAL](https://usal.es/).
@@ -11,7 +11,12 @@
 
   <details>
     <summary>
-    <strong>MORE ABOUT ME</strong>
+    <strong>More about me</strong>
     </summary>
-  
-  </details>
+    <img height="137.3px" src="https://github-readme-stats.vercel.app/api?username=n0nuser&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&count_private=true&line_height=25&0c0c0d&text_color=141414"/> 
+    <br>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anordinaryusser&bg_color=fafafa&hide_border=true&line_height=25&hide_title=true&text_color=141414"/>
+
+
+
+</details>
