@@ -1,5 +1,7 @@
 # Hello, It's me AnOrdinaryUsser <img src ="https://i.stack.imgur.com/e8nZC.gif" width=50>
 
+<img src="https://d1vq4hxutb7n2b.cloudfront.net/system/files/5464be/25342b82b69f000b5c/w_196.95238095238096,dpr_2.625/pjpjdabomb_4u2cGIFSconstruction.gif">
+
 ## 👨‍💻 About Me
 - 📚 Studying Computer Engineering at [USAL](https://usal.es/).
 - 💬 Trying not to overflow my stack
