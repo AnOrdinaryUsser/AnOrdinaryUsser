@@ -1,0 +1,36 @@
+name: Update jet heatmap SVG
+
+on:
+  schedule:
+    - cron: "30 5 * * *" # daily at 05:30 UTC
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: [generate-jet.mjs, .github/workflows/jet-heatmap.yml]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate SVG
+        env:
+          GH_USERNAME: ${{ github.repository_owner }}
+          GH_TOKEN: ${{ secrets.JET_TOKEN || secrets.GITHUB_TOKEN }}
+        run: node generate-jet.mjs
+
+      - name: Commit and push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update jet heatmap SVG"
+          file_pattern: dist/*.svg

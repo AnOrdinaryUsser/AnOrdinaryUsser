@@ -1,0 +1,19 @@
+# Fotos personales (el retrato ya va incrustado como ASCII en los SVG)
+foto.png
+*.jpg
+*.jpeg
+*.heic
+*.HEIC
+
+# Entornos y dependencias
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.pyc
+
+# Datos locales / temporales
+data/
+*.log
+.DS_Store
+Thumbs.db
