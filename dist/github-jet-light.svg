@@ -12,7 +12,7 @@
 <g clip-path="url(#panel)">
 <rect width="1177" height="231" rx="18" fill="#F8FAFC" stroke="rgba(15,23,42,0.08)"/>
 <text x="34" y="34" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="15" font-weight="700" fill="url(#hdr)">// flight log</text>
-<text x="1143" y="34" text-anchor="end" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#475569">64 contributions in the last year</text>
+<text x="1143" y="34" text-anchor="end" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#475569">65 contributions in the last year</text>
 <text x="139" y="50" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="10" fill="#475569">Sep</text>
 <text x="223" y="50" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="10" fill="#475569">Oct</text>
 <text x="307" y="50" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="10" fill="#475569">Nov</text>
@@ -394,7 +394,8 @@
 <rect x="1126" y="100" width="17" height="17" rx="4" fill="#BFDBFE" opacity="0"><animate attributeName="opacity" values="0;1" begin="1.56s" dur="0.3s" fill="freeze"/></rect>
 <rect x="1126" y="121" width="17" height="17" rx="4" fill="#BFDBFE" opacity="0"><animate attributeName="opacity" values="0;1" begin="1.56s" dur="0.3s" fill="freeze"/></rect>
 <rect x="1126" y="142" width="17" height="17" rx="4" fill="#BFDBFE" opacity="0"><animate attributeName="opacity" values="0;1" begin="1.56s" dur="0.3s" fill="freeze"/></rect>
-<rect x="1126" y="163" width="17" height="17" rx="4" fill="#E8EEF7" opacity="0"><animate attributeName="opacity" values="0;1" begin="1.56s" dur="0.3s" fill="freeze"/></rect>
+<rect x="1126" y="163" width="17" height="17" rx="4" fill="#BFDBFE" opacity="0"><animate attributeName="opacity" values="0;1" begin="1.56s" dur="0.3s" fill="freeze"/></rect>
+<rect x="1126" y="184" width="17" height="17" rx="4" fill="#E8EEF7" opacity="0"><animate attributeName="opacity" values="0;1" begin="1.56s" dur="0.3s" fill="freeze"/></rect>
 <path d="M -60 129.5 q 162.125 -34 324.25 0 t 324.25 0 t 324.25 0 t 324.25 0" fill="none" stroke="url(#trail)" stroke-width="1.6" stroke-dasharray="6 7" opacity=".5">
     <animate attributeName="stroke-dashoffset" values="0;-260" dur="8s" repeatCount="indefinite"/>
   </path>
